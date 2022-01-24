@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tugas 14</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href=" https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    p{
+        text-align: justify;
+    }
+    li{
+        text-align: justify;
+    }
+</style>
+</head>
+
+<body class="w3-light-grey">
+<div >
+    <img src="bnr.jpeg" alt="banner"width="100%">
+</div>
+<div class="w3-bar w3-blue ">
+ <button class="w3-bar-item w3-button w3-mobile" onclick="pemograman('none')">HOME</button>  
+ <button class="w3-bar-item w3-button w3-mobile" onclick="pemograman('Html')">HTML</button>
+ <button class="w3-bar-item w3-button w3-mobile" onclick="pemograman('Css')">CSS</button>
+ <button class="w3-bar-item w3-button w3-mobile" onclick="pemograman('Javascript')">JAVASCRIPT</button>
+ <button class="w3-bar-item w3-button w3-mobile" onclick="pemograman('Php')">PHP</button>
+</div>
+
+
+<div id="none" class="w3-container bahasa w3-animate-zoom" >
+    <br>
+    <div class="w3-container w3-blue w3-center">
+    <h2>Selamat Datang Di Website</h2>
+    <h1><b>PEMOGRAMAN WEBSITE DASAR</b></h1>
+    <hr>
+    <h3>NIM     : 10121221</h3>
+    <h3>Nama    : Luthfi Dhiya Ramadhan</h3>
+    <h3>Kelas   : IF-6</h3>
+</div>
+<br>
+    
+    <div class="w3-center w3-container w3-white" >
+        
+        <h2>Contact Us</h2>
+        <div class="w3-row">
+            <div class="w3-col s6 w3-white w3-center">
+                <h4>Instagram</h4>
+                <a href="https://instagram.com/luthfidhiyar16"><img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png"/></a>
+            </div>
+            <div class="w3-col s6 w3-white w3-center">
+                <h4>WhatsApp</h4>
+                <a href="https://api.whatsapp.com/send?phone=+6285864738403"><img src="https://img.icons8.com/color/48/000000/whatsapp--v2.png"/></a>
+            </div>
+          </div>
+          <br>
+        
+    </div>
+    
+</div>
+
+<div id="Html" class="w3-container bahasa w3-animate-zoom" style="display:none">
+ <h1 class=" w3-container w3-center w3-blue">HTML</h1>
+ <hr>
+ <div class=" w3-center"><img src="html.png" alt="html" ></div>
+ 
+ <h1 class="w3-container w3-blue">Pengertian dan Sejarah HTML</h1>
+ <p>HTML (HyperText Markup Language) adalah suatu bahasa yang menggunakan tanda-tanda tertentu (tag) untuk menyatakan kode-kode yang harus ditafsirkan oleh browser agar halaman tersebut dapat ditampilkan secara benar. 
+     Menampilkan berbagai informasi di dalam sebuah browser Internet.</p>
+ <p>Hypertext Markup Language atau HTML adalah bahasa markup standar yang digunakan untuk membuat halaman website dan aplikasi web.
+
+    Sejarah HTML dimulai oleh Tim Berners-Lee, seorang ahli fisika di lembaga penelitian CERN yang berlokasi di Swiss. Versi pertamanya dirilis pada tahun 1991, dengan 18 tag. Sejak saat itu, setiap kali ada versi barunya, pasti akan selalu ada tag dan attribute (tag modifier) yang juga baru.
+    
+    Ketika bekerja dengan bahasa markup ini , Anda menggunakan struktur kode sederhana (tag dan attribute) untuk mark up halaman website. Misalnya, Anda membuat sebuah paragraf dengan menempatkan enclosed text di antara tag pembuka < p >  dan tag penutup < /p >.</p>
+    
+     <div class="w3-row">
+        <div class="w3-container w3-blue w3-cell s6  w3-mobile" >
+            <h1>Tag HTML dan Fungsinya</h1>
+            <h4 >Tag HTML memiliki dua tipe utama: block-level dan inline tags.</h4>
+          <ol>
+              <li>Elemen block-level memakai semua ruang yang tersedia dan selalu membuat line baru di dalam dokumen. Contoh dari tag block adalah heading dan paragraf.</li>
+              <li>Elemen inline hanya memakai space sesuai dengan kebutuhannya dan tidak membuat line baru di halaman. Biasanya elemen ini akan memformat isi konten dari elemen block-level. Contoh dari tag inline adalah link dan emphasized strings.</li>
+          </ol>
+          <h1>Tag Block-Level</h1>
+          <h4>Tiga tag block-level yang harus dimiliki oleh setiap dokumen HTML adalah:</h4>
+          <ol>
+              <li>Tag < html > < /html > adalah elemen level tertinggi yang menyertakan setiap halaman HTML.</li>
+              <li>Tag < head > < /head > menyimpan informasi meta, seperti judul dan charset halaman.</li>
+              <li>Tag < body > < /body > melampirkan semua konten yang muncul pada suatu halaman.</li>
+        </ol>
+        <h1>Tag Inline</h1>
+        <p>Sebagian besar tag inline digunakan untuk memformat teks. Sebagai contoh, tag < strong > < /strong > akan render elemen ke format bold, sedangkan tag < em > < /em > akan ditampilkan dalam format italic.</p>
+        <p>Hyperlink adalah elemen inline yang mewajibkan adanya tag < a > < /a > dan attribute href untuk mengindikasi tujuan </p>    
+        
+    </div>
+    <div class="w3-container w3-green w3-cell s6  w3-mobile" >
+        <h1>Kelebihan dan Kekurangan HTML</h1>
+          <h4>Sama seperti hal teknis lainnya dalam dunia web, bahasa markup ini juga punya kelebihan dan kekurangannya.</h4>
+        <p>Berikut <b>kelebihan HTML:</b></p>
+        <ul>
+            <li>Digunakan secara luas dan memiliki banyak sumber serta komunitas yang besar.</li>
+            <li>Dijalankan secara alami di setiap web browser.</li>
+            <li>Mudah dipelajari.</li>
+            <li>Open-source dan sepenuhnya gratis.</li>
+            <li>Rapi dan konsisten.</li>
+            <li>Maintan dilakukan langsung oleh W3C (World Wide Web Consortium)</li>
+            <li>Integrasi mudah dengan bahasa backend, seperti PHP dan Node.js.</li>
+            <li>Digunakan untuk pembuatan struktur konten pada website yang dapat ditambahkan dengan CSS atau bahasa pemrograman lain yang dapat dijalankan seperti Javascript.</li>
+        </ul>
+        <p>Kemudian, berikut adalah <b>kekurangan HTML:</b></p>
+        <ul>
+            <li>Umumnya digunakan untuk halaman web statis. Untuk fitur dinamis, Anda bisa menggunakan JavaScript atau bahasa backend, seperti PHP.</li>
+            <li>Tidak bisa menjalankan logic. Alhasil, semua halaman web harus dibuat terpisah meskipun menggunakan elemen yang sama, seperti header dan footer.</li>
+            <li>Fitur baru tidak bisa digunakan dengan cepat di sebagian browser.</li>
+            <li>Penggunaan HTML murni hanya dapat diimplementasikan untuk halaman web statis. Untuk fitur yang lebih dinamis, Kanca IT dapat menggunakan Javascript atau bahasa pemrograman back-end lainnya</li>
+            <li>Perilaku browser terkadang sulit diprediksi. Misalnya, browser lama tidak selalu bisa merender tag yang lebih baru.</li>
+            <li>Perilaku browser yang tidak dapat diprediksi membuat proses render tag baru tekendala</li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+<div id="Css" class="w3-container bahasa w3-animate-zoom " style="display:none">
+ <h1 class=" w3-container w3-center w3-blue">CSS</h1>
+ <hr>
+ <div class=" w3-center"><img src="css.png" alt="css"></div>
+ <h1 class="w3-container w3-blue">Pengertian dan Sejarah CSS</h1>
+ <p>CSS adalah kepanjangan dari Cascading Style Sheet
+      yang berfungsi untuk mengatur tampilan elemen
+      yang tertulis dalam bahasa markup. Fungsi lain dari CSS yakni 
+      untuk memisahkan konten dari tampilan visual dalam sebuah website.</p>
+ <p>CSS (Cascading Style Sheet) adalah standar pembuatan dan pemakaian style untuk dokumen terstruktur. 
+      CSS digunakan untuk mempersingkat penulisan tag HTML \ seperti font, color, text,  dan table menjadi lebih ringkas
+      sehingga tidak terjadi pengulangan tulisan. Penggunaan yang paling umum dari CSS adalah untuk memformat halaman web 
+      yang ditulis dengan HTML maupun XHTML. Meskipun demikian, bahasanya sendiri dapat dipergunakan untuk semua jenis dokumen 
+      XML termasuk juga SVG dan XUL. Spesifikasi CSS diatur oleh World Wide Web Consortium (W3C).</p>
+ <p>CSS pertama kali bermula sejak munculnya SGML pada tahun 1970an. Sejak kemunculannya tersebut, CSS mengalami perkembangan yang sangat pesat. Format dasar CSS yang banyak kita gunakan sekarang ini merupakan ide dari seoang programmer bernama Hakon Wium Lie yang tertuang dalam proposalnya mengenai Cascading HTML Style Sheet (CHSS) pada bulan Oktober 1994 (dalam konferensi W3C di Chicago, Illinois). Kemudian, beliau bersama-sama dengan seorang temannya yang bernama Bert Bos mengembangkan suatu standard CSS.
+    Pada akhir tahun 1996, CSS telah resmi dipublikasikan (dan menyusul kemudian CSS Level 1 pada bulan Desember). Pengerjaan proyek ini juga didukung oleh seorang programmer bernama Thomas Reardon dari perusahaan software ternama, Microsoft. CSS digunakan oleh penulis maupun pembaca halaman web untuk menentukan warna, jenis huruf, tata letak, dan berbagai aspek tampilan dokumen. CSS digunakan terutama untuk memisahkan antara isi dokumen (yang ditulis dengan HTML atau bahasa markup lainnya) dengan presentasi dokumen (yang ditulis dengan CSS).
+    Pemisahan ini dapat meningkatkan aksesibilitas isi, memberikan lebih banyak keleluasaan dan kontrol terhadap tampilan, dan mengurangi kompleksitas serta pengulangan pada stuktur isi. CSS memungkinkan halaman yang sama untuk ditampilkan dengan cara yang berbeda untuk metode presentasi yang berbeda, seperti melalui layar, cetak, suara (sewaktu dibacakan oleh browser basis-suara atau pembaca layar), dan juga alat pembaca braille. Halaman HTML atau XML yang sama juga dapat ditampilkan secara berbeda, baik dari segi gaya tampilan atau skema warna dengan menggunakan CSS.
+ </p>
+ <p>
+    Sekarang penggunaan CSS telah semakin meluas dan terus dikembangkan. Hal ini juga akan mempermudah seorang web designer dalam mengembangkan suatu halaman web (situs).
+    Ada 3 cara untuk memasang Script CSS pada dokumen HTML yaitu:
+ </p>
+ <ul>
+     <li>External Style Sheet (file CSS berbeda dari file HTML)</li>
+     <li>Internal Style Sheet (Kode CSS dipasang di dalam tag head HTML)</li>
+     <li>Inline Style Sheet (Kode CSS langsung dipasang di tag HTML, tidak direkomendasikan)</li>
+ </ul>
+ <h1 class="w3-container w3-blue">Perkembangan CSS</h1>
+ <ol>
+     <h2><li>CSS 1</li></h2>
+     <p>Pada tanggal 17 Agustus 1996 World Wide Web Consortium (W3C) menetapkan CSS sebagai bahasa pemrograman standard dalam pembuatan web. Tujuannya adalah untuk mengurangi pembuatan tag-tag baru oleh Netscape dan Internet Explorer, karena kedua browser tersebut sedang bersaing mengembangkan tag sendiri untuk mengatur tampilan web.</p>
+     <p>CSS 1 mendukung pengaturan tampilan dalam hal :</p>
+     <ul>
+         <li>Font (Jenis ketebalan).</li>
+         <li>Warna, teks, background dan elemen lainnya.</li>
+         <li>Text attributes, misalnya spasi antar baris, kata dan  huruf.</li>
+         <li>Posisi teks, gambar, table dan elemen lainnya.</li>
+         <li>Margin, border dan padiing.</li>
+     </ul>
+     <h2><li>CSS 2</li></h2>
+     <p>W3C menyempurnakan CSS tahap awal dengan menciptakan standard CSS 2 yang menjadi standard hingga saat ini pada tahun1998. Semua atribut dari CSS 1 dimasukkan dan diperluas dengan penekanan pada International Accessibiality and Capacibilty kususnya media-specific CSS. CSS 2 dikembangkan untuk memenuhi kebutuhan terhadap format dokumen agar bisa ditampilkan di printer.</p>
+     <h2><li>CSS 3</li></h2>
+     <p>CSS 3 adalah versi terbaru dari CSS yang mampu melakukan banyak hal dalam mendesain website. CSS 3 dapat melakukan animasi pada halaman website, diantaranya animasi warna dan animasi 3D. Desainnya yang memudahkan dalam hal kompatibilitas websitenya pada smartphone dengan dukungan fitur baru yakni media query. Selain itu, banyak fitur baru pada CSS 3 yaitu : Multiple background, border-radius, drop-shadow, border-image, CSS-Math dan CSS Object Model.</p>
+     <p>Fitur terbaru CSS 3 :</p>
+     <ul>
+        <li>Animasi, sehingga pembuatan animasi tidak memerlukan program sejenis Adobe Flash dan Microsoft Silverlight.</li>
+        <li>Beberapa efek teks, seperti teks berbayang, kolom koran dan “Word-Wrap”.</li>
+        <li>Beberapa efek pada kotak, seperti kotak yang ukurannya dapat diubah-ubah, transformasi 2 dimensi dan 2 dimensi, sudut-sudut yang tumpul dan bayangan.</li>
+    </ul>
+    </ol>
+    <div class="w3-row">
+        <div class="w3-container w3-green w3-cell s6  w3-mobile" >
+            <h1>Kelebihan CSS</h1>
+                <ul>
+                    <li>CSS mudah untuk dipelajari dan digunakan.</li>
+                    <li>CSS memisahkan antara Konten web dan Desain.</li>
+                    <li>Pengaturan Desain dapat dilakukan dengan efisien.</li>
+                    <li>Lebih cepat dalam bekerja saat modifikasi halaman web.</li>
+                    <li>Dapat digunakan pada semua browser</li>
+                    <li>Fleksibel dalam penggunaannya dan interaktif serta nyaman dipandang</li>
+                </ul>
+        </div>
+        <div class="w3-container w3-red w3-cell s6  w3-mobile" >
+            <h1>Kekurangan CSS</h1>
+                <ul>
+                    <li>Ada beberapa browser lama tidak kompatible dengan CSS.</li>
+                    <li>Di butuhkan waktu yang cukup lama dalam mendesain dan membuatnya</li>
+                    <li>Harus Tahu dalam penggunaannya.</li>
+                    <li>Tidak semua browser dapat mengartikan kode CSS dengan cara yang sama, sehingga tampilan pada web dengan CSS terlihat baik pada browser yang satu, tetapi berantakan di browser yang lain.</li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+<div id="Javascript" class="w3-container bahasa w3-animate-zoom " style="display:none">
+ <h1 class=" w3-container w3-center w3-blue">Javascript</h1>
+ <hr>
+ <div class="w3-container w3-center "><img src="js.jfif" alt="javascript"></div>
+ <div>
+ <h1 class="w3-container w3-blue">Pengertian JavaScript</h1>
+ <p>Javascript adalah bahasa pemrograman yang bisa membuat internet bekerja.
+      Lebih lengkapnya, Javascript adalah bahasa pemrograman yang ringan,
+       bersifat dinami
+      dan dapat diarahkan untuk oriented programming maupun
+       functional programming.</p>
+<p>
+    JavaScript adalah bahasa pemrograman populer yang digunakan untuk membuat situs dengan konten website yang dinamis. 
+Konten dinamis artinya konten dapat bergerak atau berubah di depan layar tanpa perlu mereload halaman. Misalnya saja, fitur slideshow foto, gambar animasi, pengisian poling, dan lainnya.  
+JavaScript sendiri sebenarnya biasanya dikolaborasikan dengan HTML dan CSS. Di mana HTML digunakan untuk membuat struktur website dan CSS untuk merancang style halaman website. Lalu, JavaScript berperan menambahkan elemen interaktif untuk meningkatkan engagement pengguna. 
+Sebagai contoh, ketika Anda memberikan like dan komentar di Twitter. Anda bisa melihat munculnya jumlah like dan komentar yang terus bertambah secara real time, tanpa direload.  
+</p>
+<h1 class="w3-container w3-blue">Fungsi JavaScript</h1>
+    <ol>
+        <h2><li>Membuat Website Lebih Menarik</li></h2>
+        <p>JavaScript mampu membuat website terlihat lebih menarik dan interaktif, dengan konten-konten dinamisnya. 
+            Misalnya, konten yang bergerak dan memperbarui secara real-time tanpa perlu reload semua halaman website berkali-kali.  
+            
+            Sebagai contoh, Google Maps. 
+            
+            ilustrasi google maps page
+            Ketika fitur penunjuk rute diaktifkan, Google Maps dapat terus mengupdate posisi Anda secara realtime tanpa perlu melakukan reload. Hal ini tentu tak bisa dilakukan tanpa menggunakan JavaScript. </p>
+        <h2><li>Menciptakan Aplikasi Mobile</li></h2>
+        <p>Fungsi JavaScript selanjutnya ialah untuk membuat aplikasi mobile. Kalau dulu aplikasi mobile hanya bisa dikembangkan dengan bahasa pemrograman Java untuk Android. Sekarang, bahasa pemrograman ini sudah bisa digunakan dalam mobile API untuk membuat aplikasi mobile. 
+            Pun pembuatan aplikasi mobile juga semakin mudah dengan adanya framework JavaScript khusus aplikasi mobile, seperti React Native. Dengan framework ini, Anda bisa membuat aplikasi mobile untuk dua sistem operasi sekaligus, yaitu Android dan iOS. </p>
+        <h2><li>Mengembangkan Game Berbasis Web Browser</li></h2>
+        <p>Tak hanya membuat halaman website, JavaScript juga dapat berfungsi untuk mengembangkan game online berbasis browser.  
+            Untuk membuat game browser ini, bahasa pemrograman ini dikombinasikan dengan HTML5 yang mampu membuat game semakin menarik. Beberapa game populer JavaScript, misalnya Lord of Ultima dan Flappy Bird. 
+            Pengembangan game berbasis JavaScript ini pun didukung oleh adanya framework JavaScript khusus game, seperti Playground.js, Panda.js, dan Quintus. </p>
+        <h2><li>Menjalankan Web Server </li></h2>
+        <p>Seiring perkembangannya, bahasa pemrograman ini tak hanya mampu bekerja di sisi browser saja, tetapi juga di sisi server dengan menggunakan Node.js.  
+            Node.js ini akan mengeksekusi kode JavaScript pada sisi server sehingga dapat menjalankan situs, aplikasi web, dan game berbasis browser. 
+            Node.js juga lebih mampu menangani banyak proses secara bersamaan, tanpa perlu menunggu satu proses selesai terlebih dulu. Sehingga proses bisa dilakukan lebih cepat. </p>
+    </ol>
+    <div class="w3-row">
+        <div class="w3-container w3-green w3-cell s6  w3-mobile" >
+            <h1>Kelebihan JavaScript</h1>
+                <ul>
+                    <li>Tidak membutuhkan resource memory besar (ringan dan kecil)</li>
+                    <li>Mudah untuk dipelajari</li>
+                    <li>Dinamis</li>
+                    <li>Multi platform, bisa dijalankan di banyak sistem operasi</li>
+                    <li>Mudah untuk dikembangkan</li>
+                    
+                </ul>
+        </div>
+        <div class="w3-container w3-red w3-cell s6  w3-mobile" >
+            <h1>Kekurangan JavaScript</h1>
+                <ul>
+                    <li>Script yang digunakan pada Javascript tidak terenkripsi</li>
+                    <li>Bukan untuk pengembangan aplikasi stand alone</li>
+                    <li>Memiliki keterbatasan objek</li>
+                </ul>
+        </div>
+</div>
+</div>
+</div>
+
+<div id="Php" class="w3-container bahasa w3-animate-zoom " style="display:none">
+ <h1 class=" w3-container w3-center w3-blue">PHP</h1>
+ <hr>
+ <div class="w3-container w3-center"><img src="php.png" alt="php"></div>
+ <h1 class=" w3-container w3-blue">Pengertian PHP</h1>
+ <p>PHP adalah bahasa penulisan skrip open-source yang biasanya digunakan dalam
+      pemrograman atau pengembangan website.Fungsi PHP secara umum ialah untuk
+       mengakses layanan Web dan mengubah halaman HTML statis menjadi halaman 
+       dinamis. Memanfaatkan fungsi PHP dengan baik akan otomatis bisa 
+       mengembangkan situs web statis atau situs web.
+       Sebagai bahasa pemrograman yang biasanya diterapkan untuk membuat website.</p>
+<p>PHP  (PHP: Hypertext Preprocessor) adalah sebuah bahasa pemrograman server side scripting yang bersifat open source.
+    Sebagai sebuah scripting language, PHP menjalankan instruksi pemrograman saat proses runtime. Hasil dari instruksi tentu akan berbeda tergantung data yang diproses.
+    PHP merupakan bahasa pemrograman server-side, maka script dari PHP nantinya akan diproses di server. Jenis server yang sering digunakan bersama dengan PHP antara lain Apache, Nginx, dan LiteSpeed. 
+    Selain itu, PHP juga merupakan bahasa pemrograman yang bersifat open source. Pengguna bebas memodifikasi dan mengembangkan sesuai dengan kebutuhan mereka.
+    PHP memiliki syntax dasar yang sederhana. Anda sudah belajar bagaimana aturan penulisannya yang case sensitive hingga komentar sebagai penjelasan kodenya. 
+    Pada penggunaannya, PHP bisa digabungkan dengan bahasa pemrograman lain, seperti HTML, CSS, dan Javascript seperti contoh di atas. Bahkan, bahasa permrograman ini juga mampu bekerja dengan baik bersama MySQL, sebagai sebuah sistem database.
+</p>
+<div class="w3-row">
+    <div class="w3-container w3-green w3-cell s6  w3-mobile" >
+        <h1>Kelebihan PHP</h1>
+            <ul>
+                <li>Lebih mudah dipelajari</li>
+                <li>Mempunyai community besar</li>
+                <li>Lebih ringkas</li>
+                <li>Open source</li>
+                <li>Memiliki perkembangan yang cukup cepat</li>
+                <li>Memiliki maintenance yang lebih mudah</li>
+            </ul>
+    </div>
+    <div class="w3-container w3-red w3-cell s6  w3-mobile" >
+        <h1>Kekurangan PHP</h1>
+            <ul>
+                <li>Memiliki banyak kompetisi</li>
+                <li>Tidak dilengkapi dengan tipe data</li>
+                <li>Rawan pembajakan</li>
+                <li>Kurang prestisius</li>
+            </ul>
+    </div>
+</div>
+</div>
+<br>
+<div class="footer w3-center w3-blue" style="padding:1px;" >
+    <h5>Copyright © 2022 Luthfi Dhiya Ramadhan</h5>
+</div>
+
+<script>
+function pemograman(bahasapemograman) {
+ var i;
+ var x = document.getElementsByClassName("bahasa");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none"; 
+ }
+ document.getElementById(bahasapemograman).style.display = "block"; 
+}
+</script>
+</body>
+</html>
